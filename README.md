@@ -18,6 +18,25 @@ This project leverages the **Groq API** for **fast and efficient LLM inference**
 
 ---
 
+Samples:
+
+# Inital Page
+
+<img width="3436" height="1267" alt="image" src="https://github.com/user-attachments/assets/fa5b181d-0b48-41ca-b623-cb4585df0056" />
+
+# Passing in a prompt 
+<img width="3426" height="1265" alt="image" src="https://github.com/user-attachments/assets/5dcd09f1-9e20-43b7-a431-d518c2d60c99" />
+
+# Output
+
+<img width="3422" height="1269" alt="image" src="https://github.com/user-attachments/assets/e91d1844-579b-4004-ac52-2930fc709ce9" />
+
+# Download or Copy the prompt
+
+<img width="2259" height="1155" alt="image" src="https://github.com/user-attachments/assets/d2b9513b-d58d-45c7-8504-9605e6a58b0f" />
+
+---
+
 ## ⚡ Key Features
 
 ✅ **Model-Aware Prompt Generation**  
