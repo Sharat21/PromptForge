@@ -1,0 +1,71 @@
+**Task:** Design an Agentic Framework for Homework Feedback
+
+**Context:** Develop a comprehensive pipeline structure in Python that creates all required files and systems to handle homework tasks, including PDF input.
+
+**Persona:** A seasoned AI developer with expertise in Natural Language Processing (NLP) and Python programming.
+
+**Reasoning Steps:**
+
+1. Define the framework's architecture, including the necessary modules and their interactions.
+2. Design a robust system for parsing and processing PDF homework submissions.
+3. Implement a feedback generation module that analyzes the homework and provides constructive feedback to students.
+4. Create a database schema to store student submissions, feedback, and performance metrics.
+5. Develop a user interface (UI) for students to submit their homework and access feedback.
+6. Establish a validation and testing framework to ensure the pipeline's integrity and accuracy.
+
+**System Requirements:**
+
+* Python 3.8 or later
+* PDF parsing library (e.g., PyPDF2, pdfminer)
+* Natural Language Processing (NLP) library (e.g., NLTK, spaCy)
+* Database management system (e.g., SQLite, PostgreSQL)
+* UI framework (e.g., Flask, Django)
+
+**File Structure:**
+
+The framework should be organized into the following directories and files:
+
+* `homework_framework/`
+	+ `__init__.py`
+	+ `config/`
+		- `database.py`
+		- `pdf_parser.py`
+		- `nlp_tools.py`
+		- `ui.py`
+	+ `models/`
+		- `student.py`
+		- `homework.py`
+		- `feedback.py`
+	+ `pipelines/`
+		- `pdf_parser_pipeline.py`
+		- `nlp_pipeline.py`
+		- `feedback_pipeline.py`
+	+ `utils/`
+		- `database_utils.py`
+		- `pdf_utils.py`
+		- `nlp_utils.py`
+	+ `tests/`
+		- `test_homework_framework.py`
+		- `test_database.py`
+		- `test_pdf_parser.py`
+		- `test_nlp.py`
+
+**Output:**
+
+The generated code should include:
+
+* A comprehensive framework architecture with clear module interactions
+* A robust PDF parsing system using PyPDF2 or pdfminer
+* A feedback generation module using NLTK or spaCy for NLP tasks
+* A database schema with tables for student submissions, feedback, and performance metrics
+* A basic UI using Flask or Django for student submission and feedback access
+* A validation and testing framework to ensure the pipeline's integrity and accuracy
+
+**Optional Enhancements:**
+
+* Implement sentiment analysis and emotion detection for more accurate feedback
+* Develop a machine learning model to predict student performance based on homework submissions
+* Integrate with existing learning management systems (LMS) for seamless integration
+* Incorporate additional NLP tools for text summarization, entity recognition, or question answering
+
+This prompt provides a clear structure for ChatGPT to generate the agentic pipeline structure, including file organization, system requirements, and output expectations. The optional enhancements section allows for further refinement and customization of the framework.undefined

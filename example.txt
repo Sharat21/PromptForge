@@ -1,0 +1,3 @@
+Example prompt to try: Create a prompt to write an agentic pipeline structure capable of creating all the required files and systems needed to develop an agentic framework capable of handling tasks such as Homework require. Students enter their homework and the framework goes through it and provides feedback. The homework is a pdf.
+
+Example Additonal Info: The prompt should then create the relevant file structures in python
